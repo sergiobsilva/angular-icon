@@ -1,0 +1,25 @@
+{
+  "name": "angular-icon",
+  "version": "1.0.0",
+  "description": "Simple SVG icon component for Angular 2+.",
+  "main": "icon.module.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaliy-bobrov/angular-icon.git"
+  },
+  "keywords": [
+    "angular",
+    "svg",
+    "icon",
+    "sprite"
+  ],
+  "author": "Vitaliy Bobrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitaliy-bobrov/angular-icon/issues"
+  },
+  "homepage": "https://github.com/vitaliy-bobrov/angular-icon#readme"
+}
