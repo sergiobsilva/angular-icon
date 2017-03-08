@@ -1,6 +1,7 @@
 # angular-icon
 
 [![npm version](https://badge.fury.io/js/angular-icon.svg)](https://badge.fury.io/js/angular-icon)
+[![npm](https://img.shields.io/npm/dt/angular-icon.svg)](https://github.com/vitaliy-bobrov/angular-icon)
 
 Simple SVG icon component for Angular 2+ to use SVG icons from SVG sprite. 
 Now only inlined SVG sprites supported. SVG srpites from separate source unsopported by IE browsers.
