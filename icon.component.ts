@@ -1,5 +1,6 @@
 import { Component,
          Input,
+         HostBinding,
          OnChanges,
          SimpleChange,
          ChangeDetectionStrategy,
@@ -9,13 +10,11 @@ import { Component,
 @Component({
   selector: 'svg-icon',
   templateUrl: './icon.component.html',
-  host: {
-    'role': 'img',
-    '[class.svg-icon]': 'true',
-  },
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class IconComponent implements OnChanges {
+  @HostBinding('attr.role') role = 'img';
+  @HostBinding('class') classes = 'svg-icon';
   @Input() alt: string;
   @Input('svg-width') svgWidth: number;
   @Input('svg-height') svgHeight: number;
