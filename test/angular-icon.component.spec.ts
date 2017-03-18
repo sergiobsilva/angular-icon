@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IconComponent } from './icon.component';
+import { IconComponent } from '../src/angular-icon.component';
 
 describe('IconComponent', () => {
   let component: IconComponent;
@@ -19,7 +19,7 @@ describe('IconComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should be created', () => {
     expect(component).toBeTruthy();
   });
 });
