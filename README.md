@@ -1,9 +1,10 @@
 # angular-icon
 
+[![Build Status](https://travis-ci.org/vitaliy-bobrov/angular-icon.svg?branch=master)](https://travis-ci.org/vitaliy-bobrov/angular-icon)
 [![npm version](https://badge.fury.io/js/angular-icon.svg)](https://badge.fury.io/js/angular-icon)
 [![npm](https://img.shields.io/npm/dt/angular-icon.svg)](https://github.com/vitaliy-bobrov/angular-icon)
 
-Simple SVG icon component for Angular 2+ to use SVG icons from SVG sprite. 
+Simple SVG icon component for Angular 2+ to use SVG icons from SVG sprite.
 Now only inlined SVG sprites supported. SVG srpites from separate source unsopported by IE browsers.
 SVG icons implements a11y features using `img` aria-role and `aria-label`.
 All icons used `currentColor` value for SVG `fill` property.
@@ -68,8 +69,8 @@ export class AppModule {}
 After this component is ready to use in your templates:
 
 ```html
-<svg-icon name="my-search-icon" 
-          size="24" 
+<svg-icon name="my-search-icon"
+          size="24"
           alt="Search something"></svg-icon>
 ```
 
@@ -103,13 +104,13 @@ Icon alternative text used for `aria-label` property that used by screen readers
 
 Sets size in pixels for both SVG `width` and `height` properties. Makes icon square.
 
-### svg-width
+### svgWidth
 
 **Type**: number
 
 Sets size in pixels for SVG `width` property.
 
-### svg-height
+### svgHeight
 
 **Type**: number
 
