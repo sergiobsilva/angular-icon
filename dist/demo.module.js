@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var demo_component_1 = require("./demo.component");
-var IconModule = require('ngresizable').IconModule;
+var IconModule = require('angular-icon').IconModule;
 var DemoModule = (function () {
     function DemoModule() {
     }
