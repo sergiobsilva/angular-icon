@@ -1,0 +1,1 @@
+{"version":3,"file":"angular-icon.module.js","sourceRoot":"","sources":["../src/angular-icon.module.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAAyC;AACzC,mEAAyD;AAWzD,IAAa,UAAU;IAAvB;IAAyB,CAAC;IAAD,iBAAC;AAAD,CAAC,AAA1B,IAA0B;AAAb,UAAU;IATtB,eAAQ,CAAC;QACR,OAAO,EAAE,EAAE;QACX,YAAY,EAAE;YACZ,sCAAa;SACd;QACD,OAAO,EAAE;YACP,sCAAa;SACd;KACF,CAAC;GACW,UAAU,CAAG;AAAb,gCAAU"}
