@@ -1,6 +1,6 @@
 {
   "name": "angular-icon",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "description": "Simple SVG icon component for Angular 2+.",
   "main": "angular-icon.bundle.js",
   "module": "angular-icon.module.js",
