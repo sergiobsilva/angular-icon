@@ -1,3 +1,6 @@
+* 1.1.1
+- Fixed attribute bug
+
 * 1.1.0
 - Add AOT compatable build
 - Code simplification

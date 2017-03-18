@@ -19,7 +19,7 @@ import {
 })
 export class IconComponent {
   @HostBinding('attr.role') role = 'img';
-  @HostBinding('arrt.aria-label') ariaLabel: string;
+  @HostBinding('attr.aria-label') ariaLabel: string;
   @HostBinding('class.svg-icon') iconClassName = true;
 
   @Input() svgWidth: number;
