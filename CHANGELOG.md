@@ -1,3 +1,6 @@
+* 1.1.2
+- Add source files to fix warnings after build
+
 * 1.1.1
 - Fixed attribute bug
 
