@@ -44,28 +44,6 @@ import { AppComponent } from './app.component';
 export class AppModule {}
 ```
 
-Alternatively you can import icon component itself and add it to module declarations:
-
-```ts
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { IconComponent } from 'angular-icon/icon.component'; // Import component itself.
-
-import { AppComponent } from './app.component';
-
-@NgModule({
-  declarations: [
-    AppComponent,
-    IconComponent // Add component to module declarations.
-  ],
-  imports: [ BrowserModule ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule {}
-```
-
 After this component is ready to use in your templates:
 
 ```html
